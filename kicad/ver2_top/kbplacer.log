@@ -1,0 +1,807 @@
+22:35:25 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 45: Plugin executed with KiCad version: 7.0.2
+22:35:25 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 46: Plugin executed with python version: '3.9.13 (v3.9.13:6de2ca5339, May 17 2022, 11:37:23) \n[Clang 13.0.0 (clang-1300.0.29.30)]'
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 60: User layout: {'meta': {'author': '', 'backcolor': '#eeeeee', 'background': None, 'name': '', 'notes': '', 'radii': '', 'switchBrand': '', 'switchMount': '', 'switchType': ''}, 'keys': [{'color': '#cccccc', 'labels': ['7'], 'textColor': [], 'textSize': [], 'default': {'textColor': '#000000', 'textSize': 3}, 'x': 2.5, 'y': 0.25, 'width': 1, 'height': 1, 'x2': 0, 'y2': 0, 'width2': 1, 'height2': 1, 'rotation_x': 0, 'rotation_y': 0, 'rotation_angle': 10, 'decal': False, 'ghost': False, 'stepped': False, 'nub': False, 'profile': '', 'sm': '', 'sb': '', 'st': ''}, {'color': '#cccccc', 'labels': ['6'], 'textColor': [], 'textSize': [], 'default': {'textColor': '#000000', 'textSize': 3}, 'x': 1.5, 'y': 0.5, 'width': 1, 'height': 1, 'x2': 0, 'y2': 0, 'width2': 1, 'height2': 1, 'rotation_x': 0, 'rotation_y': 0, 'rotation_angle': 10, 'decal': False, 'ghost': False, 'stepped': False, 'nub': False, 'profile': '', 'sm': '', 'sb': '', 'st': ''}, {'color': '#cccccc', 'labels': ['8'], 'textColor': [], 'textSize': [], 'default': {'textColor': '#000000', 'textSize': 3}, 'x': 3.5, 'y': 0.5, 'width': 1, 'height': 1, 'x2': 0, 'y2': 0, 'width2': 1, 'height2': 1, 'rotation_x': 0, 'rotation_y': 0, 'rotation_angle': 10, 'decal': False, 'ghost': False, 'stepped': False, 'nub': False, 'profile': '', 'sm': '', 'sb': '', 'st': ''}, {'color': '#cccccc', 'labels': ['5'], 'textColor': [], 'textSize': [], 'default': {'textColor': '#000000', 'textSize': 3}, 'x': 0.5, 'y': 0.75, 'width': 1, 'height': 1, 'x2': 0, 'y2': 0, 'width2': 1, 'height2': 1, 'rotation_x': 0, 'rotation_y': 0, 'rotation_angle': 10, 'decal': False, 'ghost': False, 'stepped': False, 'nub': False, 'profile': '', 'sm': '', 'sb': '', 'st': ''}, {'color': '#cccccc', 'labels': ['9'], 'textColor': [], 'textSize': [], 'default': {'textColor': '#000000', 'textSize': 3}, 'x': 4.5, 'y': 0.75, 'width': 1, 'height': 1, 'x2': 0, 'y2': 0, 'width2': 1, 'height2': 1, 'rotation_x': 0, 'rotation_y': 0, 'rotation_angle': 10, 'decal': False, 'ghost': False, 'stepped': False, 'nub': False, 'profile': '', 'sm': '', 'sb': '', 'st': ''}, {'color': '#cccccc', 'labels': ['17'], 'textColor': [], 'textSize': [], 'default': {'textColor': '#000000', 'textSize': 3}, 'x': 2.5, 'y': 1.25, 'width': 1, 'height': 1, 'x2': 0, 'y2': 0, 'width2': 1, 'height2': 1, 'rotation_x': 0, 'rotation_y': 0, 'rotation_angle': 10, 'decal': False, 'ghost': False, 'stepped': False, 'nub': False, 'profile': '', 'sm': '', 'sb': '', 'st': ''}, {'color': '#cccccc', 'labels': ['16'], 'textColor': [], 'textSize': [], 'default': {'textColor': '#000000', 'textSize': 3}, 'x': 1.5, 'y': 1.5, 'width': 1, 'height': 1, 'x2': 0, 'y2': 0, 'width2': 1, 'height2': 1, 'rotation_x': 0, 'rotation_y': 0, 'rotation_angle': 10, 'decal': False, 'ghost': False, 'stepped': False, 'nub': False, 'profile': '', 'sm': '', 'sb': '', 'st': ''}, {'color': '#cccccc', 'labels': ['18'], 'textColor': [], 'textSize': [], 'default': {'textColor': '#000000', 'textSize': 3}, 'x': 3.5, 'y': 1.5, 'width': 1, 'height': 1, 'x2': 0, 'y2': 0, 'width2': 1, 'height2': 1, 'rotation_x': 0, 'rotation_y': 0, 'rotation_angle': 10, 'decal': False, 'ghost': False, 'stepped': False, 'nub': False, 'profile': '', 'sm': '', 'sb': '', 'st': ''}, {'color': '#cccccc', 'labels': ['15'], 'textColor': [], 'textSize': [], 'default': {'textColor': '#000000', 'textSize': 3}, 'x': 0.5, 'y': 1.75, 'width': 1, 'height': 1, 'x2': 0, 'y2': 0, 'width2': 1, 'height2': 1, 'rotation_x': 0, 'rotation_y': 0, 'rotation_angle': 10, 'decal': False, 'ghost': False, 'stepped': False, 'nub': False, 'profile': '', 'sm': '', 'sb': '', 'st': ''}, {'color': '#cccccc', 'labels': ['19'], 'textColor': [], 'textSize': [], 'default': {'textColor': '#000000', 'textSize': 3}, 'x': 4.5, 'y': 1.75, 'width': 1, 'height': 1, 'x2': 0, 'y2': 0, 'width2': 1, 'height2': 1, 'rotation_x': 0, 'rotation_y': 0, 'rotation_angle': 10, 'decal': False, 'ghost': False, 'stepped': False, 'nub': False, 'profile': '', 'sm': '', 'sb': '', 'st': ''}, {'color': '#cccccc', 'labels': ['27'], 'textColor': [], 'textSize': [], 'default': {'textColor': '#000000', 'textSize': 3}, 'x': 2.5, 'y': 2.25, 'width': 1, 'height': 1, 'x2': 0, 'y2': 0, 'width2': 1, 'height2': 1, 'rotation_x': 0, 'rotation_y': 0, 'rotation_angle': 10, 'decal': False, 'ghost': False, 'stepped': False, 'nub': False, 'profile': '', 'sm': '', 'sb': '', 'st': ''}, {'color': '#cccccc', 'labels': ['26'], 'textColor': [], 'textSize': [], 'default': {'textColor': '#000000', 'textSize': 3}, 'x': 1.5, 'y': 2.5, 'width': 1, 'height': 1, 'x2': 0, 'y2': 0, 'width2': 1, 'height2': 1, 'rotation_x': 0, 'rotation_y': 0, 'rotation_angle': 10, 'decal': False, 'ghost': False, 'stepped': False, 'nub': False, 'profile': '', 'sm': '', 'sb': '', 'st': ''}, {'color': '#cccccc', 'labels': ['28'], 'textColor': [], 'textSize': [], 'default': {'textColor': '#000000', 'textSize': 3}, 'x': 3.5, 'y': 2.5, 'width': 1, 'height': 1, 'x2': 0, 'y2': 0, 'width2': 1, 'height2': 1, 'rotation_x': 0, 'rotation_y': 0, 'rotation_angle': 10, 'decal': False, 'ghost': False, 'stepped': False, 'nub': False, 'profile': '', 'sm': '', 'sb': '', 'st': ''}, {'color': '#cccccc', 'labels': ['25'], 'textColor': [], 'textSize': [], 'default': {'textColor': '#000000', 'textSize': 3}, 'x': 0.5, 'y': 2.75, 'width': 1, 'height': 1, 'x2': 0, 'y2': 0, 'width2': 1, 'height2': 1, 'rotation_x': 0, 'rotation_y': 0, 'rotation_angle': 10, 'decal': False, 'ghost': False, 'stepped': False, 'nub': False, 'profile': '', 'sm': '', 'sb': '', 'st': ''}, {'color': '#cccccc', 'labels': ['29'], 'textColor': [], 'textSize': [], 'default': {'textColor': '#000000', 'textSize': 3}, 'x': 4.5, 'y': 2.75, 'width': 1, 'height': 1, 'x2': 0, 'y2': 0, 'width2': 1, 'height2': 1, 'rotation_x': 0, 'rotation_y': 0, 'rotation_angle': 10, 'decal': False, 'ghost': False, 'stepped': False, 'nub': False, 'profile': '', 'sm': '', 'sb': '', 'st': ''}, {'color': '#cccccc', 'labels': ['33'], 'textColor': [], 'textSize': [], 'default': {'textColor': '#000000', 'textSize': 3}, 'x': 3, 'y': 3.75, 'width': 1, 'height': 1, 'x2': 0, 'y2': 0, 'width2': 1, 'height2': 1, 'rotation_x': 0, 'rotation_y': 0, 'rotation_angle': 10, 'decal': False, 'ghost': False, 'stepped': False, 'nub': False, 'profile': '', 'sm': '', 'sb': '', 'st': ''}, {'color': '#cccccc', 'labels': ['34'], 'textColor': [], 'textSize': [], 'default': {'textColor': '#000000', 'textSize': 3}, 'x': 4, 'y': 4, 'width': 1, 'height': 1, 'x2': 0, 'y2': 0, 'width2': 1, 'height2': 1, 'rotation_x': 0, 'rotation_y': 0, 'rotation_angle': 10, 'decal': False, 'ghost': False, 'stepped': False, 'nub': False, 'profile': '', 'sm': '', 'sb': '', 'st': ''}, {'color': '#cccccc', 'labels': ['35'], 'textColor': [], 'textSize': [], 'default': {'textColor': '#000000', 'textSize': 3}, 'x': 5, 'y': 4.25, 'width': 1, 'height': 1, 'x2': 0, 'y2': 0, 'width2': 1, 'height2': 1, 'rotation_x': 0, 'rotation_y': 0, 'rotation_angle': 10, 'decal': False, 'ghost': False, 'stepped': False, 'nub': False, 'profile': '', 'sm': '', 'sb': '', 'st': ''}, {'color': '#cccccc', 'labels': ['2'], 'textColor': [], 'textSize': [], 'default': {'textColor': '#000000', 'textSize': 3}, 'x': 8.25, 'y': 2.25, 'width': 1, 'height': 1, 'x2': 0, 'y2': 0, 'width2': 1, 'height2': 1, 'rotation_x': 0, 'rotation_y': 0, 'rotation_angle': -10, 'decal': False, 'ghost': False, 'stepped': False, 'nub': False, 'profile': '', 'sm': '', 'sb': '', 'st': ''}, {'color': '#cccccc', 'labels': ['1'], 'textColor': [], 'textSize': [], 'default': {'textColor': '#000000', 'textSize': 3}, 'x': 7.25, 'y': 2.5, 'width': 1, 'height': 1, 'x2': 0, 'y2': 0, 'width2': 1, 'height2': 1, 'rotation_x': 0, 'rotation_y': 0, 'rotation_angle': -10, 'decal': False, 'ghost': False, 'stepped': False, 'nub': False, 'profile': '', 'sm': '', 'sb': '', 'st': ''}, {'color': '#cccccc', 'labels': ['3'], 'textColor': [], 'textSize': [], 'default': {'textColor': '#000000', 'textSize': 3}, 'x': 9.25, 'y': 2.5, 'width': 1, 'height': 1, 'x2': 0, 'y2': 0, 'width2': 1, 'height2': 1, 'rotation_x': 0, 'rotation_y': 0, 'rotation_angle': -10, 'decal': False, 'ghost': False, 'stepped': False, 'nub': False, 'profile': '', 'sm': '', 'sb': '', 'st': ''}, {'color': '#cccccc', 'labels': ['10'], 'textColor': [], 'textSize': [], 'default': {'textColor': '#000000', 'textSize': 3}, 'x': 6.25, 'y': 2.75, 'width': 1, 'height': 1, 'x2': 0, 'y2': 0, 'width2': 1, 'height2': 1, 'rotation_x': 0, 'rotation_y': 0, 'rotation_angle': -10, 'decal': False, 'ghost': False, 'stepped': False, 'nub': False, 'profile': '', 'sm': '', 'sb': '', 'st': ''}, {'color': '#cccccc', 'labels': ['4'], 'textColor': [], 'textSize': [], 'default': {'textColor': '#000000', 'textSize': 3}, 'x': 10.25, 'y': 2.75, 'width': 1, 'height': 1, 'x2': 0, 'y2': 0, 'width2': 1, 'height2': 1, 'rotation_x': 0, 'rotation_y': 0, 'rotation_angle': -10, 'decal': False, 'ghost': False, 'stepped': False, 'nub': False, 'profile': '', 'sm': '', 'sb': '', 'st': ''}, {'color': '#cccccc', 'labels': ['12'], 'textColor': [], 'textSize': [], 'default': {'textColor': '#000000', 'textSize': 3}, 'x': 8.25, 'y': 3.25, 'width': 1, 'height': 1, 'x2': 0, 'y2': 0, 'width2': 1, 'height2': 1, 'rotation_x': 0, 'rotation_y': 0, 'rotation_angle': -10, 'decal': False, 'ghost': False, 'stepped': False, 'nub': False, 'profile': '', 'sm': '', 'sb': '', 'st': ''}, {'color': '#cccccc', 'labels': ['11'], 'textColor': [], 'textSize': [], 'default': {'textColor': '#000000', 'textSize': 3}, 'x': 7.25, 'y': 3.5, 'width': 1, 'height': 1, 'x2': 0, 'y2': 0, 'width2': 1, 'height2': 1, 'rotation_x': 0, 'rotation_y': 0, 'rotation_angle': -10, 'decal': False, 'ghost': False, 'stepped': False, 'nub': False, 'profile': '', 'sm': '', 'sb': '', 'st': ''}, {'color': '#cccccc', 'labels': ['13'], 'textColor': [], 'textSize': [], 'default': {'textColor': '#000000', 'textSize': 3}, 'x': 9.25, 'y': 3.5, 'width': 1, 'height': 1, 'x2': 0, 'y2': 0, 'width2': 1, 'height2': 1, 'rotation_x': 0, 'rotation_y': 0, 'rotation_angle': -10, 'decal': False, 'ghost': False, 'stepped': False, 'nub': False, 'profile': '', 'sm': '', 'sb': '', 'st': ''}, {'color': '#cccccc', 'labels': ['20'], 'textColor': [], 'textSize': [], 'default': {'textColor': '#000000', 'textSize': 3}, 'x': 6.25, 'y': 3.75, 'width': 1, 'height': 1, 'x2': 0, 'y2': 0, 'width2': 1, 'height2': 1, 'rotation_x': 0, 'rotation_y': 0, 'rotation_angle': -10, 'decal': False, 'ghost': False, 'stepped': False, 'nub': False, 'profile': '', 'sm': '', 'sb': '', 'st': ''}, {'color': '#cccccc', 'labels': ['14'], 'textColor': [], 'textSize': [], 'default': {'textColor': '#000000', 'textSize': 3}, 'x': 10.25, 'y': 3.75, 'width': 1, 'height': 1, 'x2': 0, 'y2': 0, 'width2': 1, 'height2': 1, 'rotation_x': 0, 'rotation_y': 0, 'rotation_angle': -10, 'decal': False, 'ghost': False, 'stepped': False, 'nub': False, 'profile': '', 'sm': '', 'sb': '', 'st': ''}, {'color': '#cccccc', 'labels': ['22'], 'textColor': [], 'textSize': [], 'default': {'textColor': '#000000', 'textSize': 3}, 'x': 8.25, 'y': 4.25, 'width': 1, 'height': 1, 'x2': 0, 'y2': 0, 'width2': 1, 'height2': 1, 'rotation_x': 0, 'rotation_y': 0, 'rotation_angle': -10, 'decal': False, 'ghost': False, 'stepped': False, 'nub': False, 'profile': '', 'sm': '', 'sb': '', 'st': ''}, {'color': '#cccccc', 'labels': ['21'], 'textColor': [], 'textSize': [], 'default': {'textColor': '#000000', 'textSize': 3}, 'x': 7.25, 'y': 4.5, 'width': 1, 'height': 1, 'x2': 0, 'y2': 0, 'width2': 1, 'height2': 1, 'rotation_x': 0, 'rotation_y': 0, 'rotation_angle': -10, 'decal': False, 'ghost': False, 'stepped': False, 'nub': False, 'profile': '', 'sm': '', 'sb': '', 'st': ''}, {'color': '#cccccc', 'labels': ['23'], 'textColor': [], 'textSize': [], 'default': {'textColor': '#000000', 'textSize': 3}, 'x': 9.25, 'y': 4.5, 'width': 1, 'height': 1, 'x2': 0, 'y2': 0, 'width2': 1, 'height2': 1, 'rotation_x': 0, 'rotation_y': 0, 'rotation_angle': -10, 'decal': False, 'ghost': False, 'stepped': False, 'nub': False, 'profile': '', 'sm': '', 'sb': '', 'st': ''}, {'color': '#cccccc', 'labels': ['30'], 'textColor': [], 'textSize': [], 'default': {'textColor': '#000000', 'textSize': 3}, 'x': 6.25, 'y': 4.75, 'width': 1, 'height': 1, 'x2': 0, 'y2': 0, 'width2': 1, 'height2': 1, 'rotation_x': 0, 'rotation_y': 0, 'rotation_angle': -10, 'decal': False, 'ghost': False, 'stepped': False, 'nub': False, 'profile': '', 'sm': '', 'sb': '', 'st': ''}, {'color': '#cccccc', 'labels': ['24'], 'textColor': [], 'textSize': [], 'default': {'textColor': '#000000', 'textSize': 3}, 'x': 10.25, 'y': 4.75, 'width': 1, 'height': 1, 'x2': 0, 'y2': 0, 'width2': 1, 'height2': 1, 'rotation_x': 0, 'rotation_y': 0, 'rotation_angle': -10, 'decal': False, 'ghost': False, 'stepped': False, 'nub': False, 'profile': '', 'sm': '', 'sb': '', 'st': ''}, {'color': '#cccccc', 'labels': ['32'], 'textColor': [], 'textSize': [], 'default': {'textColor': '#000000', 'textSize': 3}, 'x': 7.75, 'y': 5.75, 'width': 1, 'height': 1, 'x2': 0, 'y2': 0, 'width2': 1, 'height2': 1, 'rotation_x': 0, 'rotation_y': 0, 'rotation_angle': -10, 'decal': False, 'ghost': False, 'stepped': False, 'nub': False, 'profile': '', 'sm': '', 'sb': '', 'st': ''}, {'color': '#cccccc', 'labels': ['31'], 'textColor': [], 'textSize': [], 'default': {'textColor': '#000000', 'textSize': 3}, 'x': 6.75, 'y': 6, 'width': 1, 'height': 1, 'x2': 0, 'y2': 0, 'width2': 1, 'height2': 1, 'rotation_x': 0, 'rotation_y': 0, 'rotation_angle': -10, 'decal': False, 'ghost': False, 'stepped': False, 'nub': False, 'profile': '', 'sm': '', 'sb': '', 'st': ''}, {'color': '#cccccc', 'labels': ['36'], 'textColor': [], 'textSize': [], 'default': {'textColor': '#000000', 'textSize': 3}, 'x': 5.75, 'y': 6.25, 'width': 1, 'height': 1, 'x2': 0, 'y2': 0, 'width2': 1, 'height2': 1, 'rotation_x': 0, 'rotation_y': 0, 'rotation_angle': -10, 'decal': False, 'ghost': False, 'stepped': False, 'nub': False, 'profile': '', 'sm': '', 'sb': '', 'st': ''}]}
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 279: Diode position: DiodePosition(relative_position=Point(x=5.08, y=3.03), orientation=90.0, side=<Side.BACK: True>)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 35: Searching for SW1 footprint
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 35: Searching for D1 footprint
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 268: Detected template switch-to-diode path: []
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 35: Searching for SW1 footprint
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 46: Setting SW1 footprint position: (82150000, 39287500)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 35: Searching for D1 footprint
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 46: Setting D1 footprint position: (87230000, 42317500)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 240: Rotating SW1 footprint: rotationReference: (25000000, 25000000), rotationAngle: 10
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 240: Rotating D1 footprint: rotationReference: (25000000, 25000000), rotationAngle: 10
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 347: Switch pad without recognized net name found.
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 356: Switch pad without recognized net name found.
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 129: Routing SW1 with D1
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 142: switchPadPosition: (85436145, 45006063), diodePadPosition: (83585660, 51112500)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 173: Routing at 10 degree angle
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 181: In rotated coordinates: switchPadPosition: (91953398, 29486488), diodePadPosition: (91191398, 35821488)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW8:
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW1:
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad D1:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad D1:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 202: Adding track segment (B.Cu): [(83585660, 51112500), (84468403, 50494395)]
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW8:
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW1:
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW1:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 130: Track collide with pad D1:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 151: Track collision ignored, track starts or ends at the end of ab7a13ca-6586-45b6-adc7-b282bb8fb1da track
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 164: Pad collision removed due to connection with track which leads to that pad
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 202: Adding track segment (B.Cu): [(84468403, 50494395), (85436145, 45006063)]
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 35: Searching for SW2 footprint
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 46: Setting SW2 footprint position: (63100000, 44050000)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 35: Searching for D2 footprint
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 46: Setting D2 footprint position: (68180000, 47080000)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 240: Rotating SW2 footprint: rotationReference: (25000000, 25000000), rotationAngle: 10
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 240: Rotating D2 footprint: rotationReference: (25000000, 25000000), rotationAngle: 10
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 347: Switch pad without recognized net name found.
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 356: Switch pad without recognized net name found.
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 129: Routing SW2 with D2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 142: switchPadPosition: (65848558, 46388212), diodePadPosition: (63998073, 52494649)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 173: Routing at 10 degree angle
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 181: In rotated coordinates: switchPadPosition: (72903398, 34248988), diodePadPosition: (72141398, 40583988)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW2:
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad D2:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad D2:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 202: Adding track segment (B.Cu): [(63998073, 52494649), (64880815, 51876544)]
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW2:
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW2:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 130: Track collide with pad D2:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 151: Track collision ignored, track starts or ends at the end of 4b172556-30f1-4652-960d-3cb772ccd250 track
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 164: Pad collision removed due to connection with track which leads to that pad
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 202: Adding track segment (B.Cu): [(64880815, 51876544), (65848558, 46388212)]
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 35: Searching for SW3 footprint
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 46: Setting SW3 footprint position: (101200000, 44050000)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 35: Searching for D3 footprint
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 46: Setting D3 footprint position: (106280000, 47080000)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 240: Rotating SW3 footprint: rotationReference: (25000000, 25000000), rotationAngle: 10
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 240: Rotating D3 footprint: rotationReference: (25000000, 25000000), rotationAngle: 10
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 347: Switch pad without recognized net name found.
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 356: Switch pad without recognized net name found.
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 129: Routing SW3 with D3
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 142: switchPadPosition: (103369733, 53004208), diodePadPosition: (101519248, 59110645)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 173: Routing at 10 degree angle
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 181: In rotated coordinates: switchPadPosition: (111003398, 34248989), diodePadPosition: (110241398, 40583989)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW3:
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad D3:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad D3:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 202: Adding track segment (B.Cu): [(101519248, 59110645), (102401991, 58492541)]
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 130: Track collide with pad SW14:
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW3:
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW3:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 130: Track collide with pad D3:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 151: Track collision ignored, track starts or ends at the end of 0e0ecaa3-66e6-40c3-a0b0-4da62ddd6654 track
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 164: Pad collision removed due to connection with track which leads to that pad
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 208: Could not add track segment due to detected collision
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 35: Searching for SW4 footprint
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 46: Setting SW4 footprint position: (44050000, 48812500)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 35: Searching for D4 footprint
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 46: Setting D4 footprint position: (49130000, 51842500)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 240: Rotating SW4 footprint: rotationReference: (25000000, 25000000), rotationAngle: 10
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 240: Rotating D4 footprint: rotationReference: (25000000, 25000000), rotationAngle: 10
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 347: Switch pad without recognized net name found.
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 356: Switch pad without recognized net name found.
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 129: Routing SW4 with D4
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 142: switchPadPosition: (46260970, 47770361), diodePadPosition: (44410486, 53876799)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 173: Routing at 10 degree angle
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 181: In rotated coordinates: switchPadPosition: (53853398, 39011488), diodePadPosition: (53091398, 45346489)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW4:
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad D4:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad D4:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 202: Adding track segment (B.Cu): [(44410486, 53876799), (45293228, 53258694)]
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW4:
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW4:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 130: Track collide with pad D4:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 151: Track collision ignored, track starts or ends at the end of 4791923c-3159-49ad-9acd-addd0b144e16 track
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 164: Pad collision removed due to connection with track which leads to that pad
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 202: Adding track segment (B.Cu): [(45293228, 53258694), (46260970, 47770361)]
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 35: Searching for SW5 footprint
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 46: Setting SW5 footprint position: (120250000, 48812500)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 35: Searching for D5 footprint
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 46: Setting D5 footprint position: (125330000, 51842500)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 240: Rotating SW5 footprint: rotationReference: (25000000, 25000000), rotationAngle: 10
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 240: Rotating D5 footprint: rotationReference: (25000000, 25000000), rotationAngle: 10
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 347: Switch pad without recognized net name found.
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 356: Switch pad without recognized net name found.
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 129: Routing SW5 with D5
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 142: switchPadPosition: (121303321, 61002353), diodePadPosition: (119452837, 67108790)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 173: Routing at 10 degree angle
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 181: In rotated coordinates: switchPadPosition: (130053398, 39011489), diodePadPosition: (129291399, 45346489)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW5:
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad D5:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad D5:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 202: Adding track segment (B.Cu): [(119452837, 67108790), (120335579, 66490686)]
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW5:
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW5:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 130: Track collide with pad D5:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 151: Track collision ignored, track starts or ends at the end of 25ac55be-ade5-4ece-b8d1-1ea13ead92af track
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 164: Pad collision removed due to connection with track which leads to that pad
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 202: Adding track segment (B.Cu): [(120335579, 66490686), (121303321, 61002353)]
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 35: Searching for SW6 footprint
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 46: Setting SW6 footprint position: (82150000, 58337500)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 35: Searching for D6 footprint
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 46: Setting D6 footprint position: (87230000, 61367500)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 240: Rotating SW6 footprint: rotationReference: (25000000, 25000000), rotationAngle: 10
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 240: Rotating D6 footprint: rotationReference: (25000000, 25000000), rotationAngle: 10
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 347: Switch pad without recognized net name found.
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 356: Switch pad without recognized net name found.
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 129: Routing SW6 with D6
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 142: switchPadPosition: (82128147, 63766651), diodePadPosition: (80277662, 69873088)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 173: Routing at 10 degree angle
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 181: In rotated coordinates: switchPadPosition: (91953398, 48536489), diodePadPosition: (91191398, 54871489)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW6:
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad D6:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad D6:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 202: Adding track segment (B.Cu): [(80277662, 69873088), (81160405, 69254984)]
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW6:
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW6:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 130: Track collide with pad D6:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 151: Track collision ignored, track starts or ends at the end of d7009d1b-0cc3-4dde-958c-4bede545aabe track
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 164: Pad collision removed due to connection with track which leads to that pad
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 202: Adding track segment (B.Cu): [(81160405, 69254984), (82128147, 63766651)]
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 35: Searching for SW7 footprint
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 46: Setting SW7 footprint position: (63100000, 63100000)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 35: Searching for D7 footprint
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 46: Setting D7 footprint position: (68180000, 66130000)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 240: Rotating SW7 footprint: rotationReference: (25000000, 25000000), rotationAngle: 10
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 240: Rotating D7 footprint: rotationReference: (25000000, 25000000), rotationAngle: 10
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 347: Switch pad without recognized net name found.
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 356: Switch pad without recognized net name found.
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 129: Routing SW7 with D7
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 142: switchPadPosition: (62540560, 65148800), diodePadPosition: (60690075, 71255237)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 173: Routing at 10 degree angle
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 181: In rotated coordinates: switchPadPosition: (72903398, 53298989), diodePadPosition: (72141398, 59633988)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW7:
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad D7:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad D7:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 202: Adding track segment (B.Cu): [(60690075, 71255237), (61572818, 70637132)]
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW7:
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW7:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 130: Track collide with pad D7:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 151: Track collision ignored, track starts or ends at the end of 062fd53e-75df-40c6-9015-78ee3f9940fd track
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 164: Pad collision removed due to connection with track which leads to that pad
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 202: Adding track segment (B.Cu): [(61572818, 70637132), (62540560, 65148800)]
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 35: Searching for SW8 footprint
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 46: Setting SW8 footprint position: (101200000, 63100000)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 35: Searching for D8 footprint
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 46: Setting D8 footprint position: (106280000, 66130000)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 240: Rotating SW8 footprint: rotationReference: (25000000, 25000000), rotationAngle: 10
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 240: Rotating D8 footprint: rotationReference: (25000000, 25000000), rotationAngle: 10
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 347: Switch pad without recognized net name found.
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 356: Switch pad without recognized net name found.
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 129: Routing SW8 with D8
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 142: switchPadPosition: (100061735, 71764796), diodePadPosition: (98211251, 77871233)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 173: Routing at 10 degree angle
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 181: In rotated coordinates: switchPadPosition: (111003398, 53298989), diodePadPosition: (110241399, 59633989)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW8:
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad D8:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad D8:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 202: Adding track segment (B.Cu): [(98211251, 77871233), (99093993, 77253129)]
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 130: Track collide with pad SW15:
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW8:
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW8:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 130: Track collide with pad D8:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 151: Track collision ignored, track starts or ends at the end of 5fb68bb0-8dee-4f0a-b2bb-67e622c5adcf track
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 164: Pad collision removed due to connection with track which leads to that pad
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 208: Could not add track segment due to detected collision
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 35: Searching for SW9 footprint
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 46: Setting SW9 footprint position: (44050000, 67862500)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 35: Searching for D9 footprint
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 46: Setting D9 footprint position: (49130000, 70892500)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 240: Rotating SW9 footprint: rotationReference: (25000000, 25000000), rotationAngle: 10
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 240: Rotating D9 footprint: rotationReference: (25000000, 25000000), rotationAngle: 10
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 347: Switch pad without recognized net name found.
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 356: Switch pad without recognized net name found.
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 129: Routing SW9 with D9
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 142: switchPadPosition: (42952973, 66530949), diodePadPosition: (41102488, 72637386)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 173: Routing at 10 degree angle
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 181: In rotated coordinates: switchPadPosition: (53853398, 58061488), diodePadPosition: (53091398, 64396488)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW9:
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad D9:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad D9:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 202: Adding track segment (B.Cu): [(41102488, 72637386), (41985230, 72019281)]
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW9:
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW9:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 130: Track collide with pad D9:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 151: Track collision ignored, track starts or ends at the end of 4214eb51-0f38-41aa-a92c-21b2e534bd69 track
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 164: Pad collision removed due to connection with track which leads to that pad
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 202: Adding track segment (B.Cu): [(41985230, 72019281), (42952973, 66530949)]
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 35: Searching for SW10 footprint
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 46: Setting SW10 footprint position: (120250000, 67862500)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 35: Searching for D10 footprint
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 46: Setting D10 footprint position: (125330000, 70892500)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 240: Rotating SW10 footprint: rotationReference: (25000000, 25000000), rotationAngle: 10
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 240: Rotating D10 footprint: rotationReference: (25000000, 25000000), rotationAngle: 10
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 347: Switch pad without recognized net name found.
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 356: Switch pad without recognized net name found.
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 129: Routing SW10 with D10
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 142: switchPadPosition: (117995323, 79762940), diodePadPosition: (116144839, 85869377)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 173: Routing at 10 degree angle
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 181: In rotated coordinates: switchPadPosition: (130053398, 58061488), diodePadPosition: (129291398, 64396488)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW10:
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad D10:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad D10:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 202: Adding track segment (B.Cu): [(116144839, 85869377), (117027581, 85251272)]
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW10:
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW10:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 130: Track collide with pad D10:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 151: Track collision ignored, track starts or ends at the end of f78038a8-5867-49da-93ca-9fa79ced2382 track
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 164: Pad collision removed due to connection with track which leads to that pad
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 202: Adding track segment (B.Cu): [(117027581, 85251272), (117995323, 79762940)]
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 35: Searching for SW11 footprint
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 46: Setting SW11 footprint position: (82150000, 77387500)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 35: Searching for D11 footprint
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 46: Setting D11 footprint position: (87230000, 80417500)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 240: Rotating SW11 footprint: rotationReference: (25000000, 25000000), rotationAngle: 10
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 240: Rotating D11 footprint: rotationReference: (25000000, 25000000), rotationAngle: 10
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 347: Switch pad without recognized net name found.
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 356: Switch pad without recognized net name found.
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 129: Routing SW11 with D11
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 142: switchPadPosition: (78820149, 82527239), diodePadPosition: (76969665, 88633676)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 173: Routing at 10 degree angle
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 181: In rotated coordinates: switchPadPosition: (91953398, 67586489), diodePadPosition: (91191399, 73921489)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW11:
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad D11:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad D11:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 202: Adding track segment (B.Cu): [(76969665, 88633676), (77852407, 88015572)]
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW11:
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW11:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 130: Track collide with pad D11:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 151: Track collision ignored, track starts or ends at the end of 080a91bf-3e65-4795-896b-8767e61e5adf track
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 164: Pad collision removed due to connection with track which leads to that pad
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 202: Adding track segment (B.Cu): [(77852407, 88015572), (78820149, 82527239)]
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 35: Searching for SW12 footprint
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 46: Setting SW12 footprint position: (63100000, 82150000)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 35: Searching for D12 footprint
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 46: Setting D12 footprint position: (68180000, 85180000)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 240: Rotating SW12 footprint: rotationReference: (25000000, 25000000), rotationAngle: 10
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 240: Rotating D12 footprint: rotationReference: (25000000, 25000000), rotationAngle: 10
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 347: Switch pad without recognized net name found.
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 356: Switch pad without recognized net name found.
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 129: Routing SW12 with D12
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 142: switchPadPosition: (59232562, 83909388), diodePadPosition: (57382077, 90015825)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 173: Routing at 10 degree angle
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 181: In rotated coordinates: switchPadPosition: (72903398, 72348989), diodePadPosition: (72141398, 78683989)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW12:
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad D12:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad D12:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 202: Adding track segment (B.Cu): [(57382077, 90015825), (58264820, 89397721)]
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW12:
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW12:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 130: Track collide with pad D12:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 151: Track collision ignored, track starts or ends at the end of 762dd057-ad0c-4b27-b437-1ea536c56085 track
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 164: Pad collision removed due to connection with track which leads to that pad
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 202: Adding track segment (B.Cu): [(58264820, 89397721), (59232562, 83909388)]
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 35: Searching for SW13 footprint
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 46: Setting SW13 footprint position: (101200000, 82150000)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 35: Searching for D13 footprint
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 46: Setting D13 footprint position: (106280000, 85180000)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 240: Rotating SW13 footprint: rotationReference: (25000000, 25000000), rotationAngle: 10
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 240: Rotating D13 footprint: rotationReference: (25000000, 25000000), rotationAngle: 10
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 347: Switch pad without recognized net name found.
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 356: Switch pad without recognized net name found.
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 129: Routing SW13 with D13
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 142: switchPadPosition: (96753737, 90525383), diodePadPosition: (94903253, 96631820)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 173: Routing at 10 degree angle
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 181: In rotated coordinates: switchPadPosition: (111003398, 72348988), diodePadPosition: (110241398, 78683988)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW13:
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad D13:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad D13:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 202: Adding track segment (B.Cu): [(94903253, 96631820), (95785995, 96013715)]
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 130: Track collide with pad SW16:1
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 130: Track collide with pad SW16:
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW13:
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW13:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 130: Track collide with pad D13:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 151: Track collision ignored, track starts or ends at the end of b177163f-e90e-4d7d-ab64-d39c82e669fa track
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 164: Pad collision removed due to connection with track which leads to that pad
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 208: Could not add track segment due to detected collision
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 35: Searching for SW14 footprint
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 46: Setting SW14 footprint position: (44050000, 86912500)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 35: Searching for D14 footprint
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 46: Setting D14 footprint position: (49130000, 89942500)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 240: Rotating SW14 footprint: rotationReference: (25000000, 25000000), rotationAngle: 10
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 240: Rotating D14 footprint: rotationReference: (25000000, 25000000), rotationAngle: 10
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 347: Switch pad without recognized net name found.
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 356: Switch pad without recognized net name found.
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 129: Routing SW14 with D14
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 142: switchPadPosition: (39644975, 85291537), diodePadPosition: (37794490, 91397974)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 173: Routing at 10 degree angle
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 181: In rotated coordinates: switchPadPosition: (53853398, 77111489), diodePadPosition: (53091398, 83446489)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW14:
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad D14:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad D14:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 202: Adding track segment (B.Cu): [(37794490, 91397974), (38677233, 90779870)]
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW14:
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW14:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 130: Track collide with pad D14:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 151: Track collision ignored, track starts or ends at the end of f308d8b9-32ca-493c-8145-6d79200d9017 track
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 164: Pad collision removed due to connection with track which leads to that pad
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 202: Adding track segment (B.Cu): [(38677233, 90779870), (39644975, 85291537)]
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 35: Searching for SW15 footprint
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 46: Setting SW15 footprint position: (120250000, 86912500)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 35: Searching for D15 footprint
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 46: Setting D15 footprint position: (125330000, 89942500)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 240: Rotating SW15 footprint: rotationReference: (25000000, 25000000), rotationAngle: 10
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 240: Rotating D15 footprint: rotationReference: (25000000, 25000000), rotationAngle: 10
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 347: Switch pad without recognized net name found.
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 356: Switch pad without recognized net name found.
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 129: Routing SW15 with D15
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 142: switchPadPosition: (114687326, 98523528), diodePadPosition: (112836841, 104629965)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 173: Routing at 10 degree angle
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 181: In rotated coordinates: switchPadPosition: (130053398, 77111489), diodePadPosition: (129291398, 83446488)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW15:
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad D15:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad D15:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 202: Adding track segment (B.Cu): [(112836841, 104629965), (113719583, 104011860)]
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW15:
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW15:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 130: Track collide with pad D15:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 151: Track collision ignored, track starts or ends at the end of 4f8ba8ee-b928-4f81-9d3a-d5ea412347d8 track
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 164: Pad collision removed due to connection with track which leads to that pad
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 202: Adding track segment (B.Cu): [(113719583, 104011860), (114687326, 98523528)]
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 35: Searching for SW16 footprint
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 46: Setting SW16 footprint position: (91675000, 105962500)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 35: Searching for D16 footprint
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 46: Setting D16 footprint position: (96755000, 108992500)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 240: Rotating SW16 footprint: rotationReference: (25000000, 25000000), rotationAngle: 10
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 240: Rotating D16 footprint: rotationReference: (25000000, 25000000), rotationAngle: 10
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 347: Switch pad without recognized net name found.
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 356: Switch pad without recognized net name found.
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 129: Routing SW16 with D16
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 142: switchPadPosition: (83238446, 112322119), diodePadPosition: (81387962, 118428556)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 173: Routing at 10 degree angle
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 181: In rotated coordinates: switchPadPosition: (101478398, 96161489), diodePadPosition: (100716398, 102496488)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW16:
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad D16:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad D16:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 202: Adding track segment (B.Cu): [(81387962, 118428556), (82270704, 117810451)]
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW16:
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW16:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 130: Track collide with pad D16:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 151: Track collision ignored, track starts or ends at the end of 86495b6f-bcfb-410a-a2c0-7564ef26d401 track
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 164: Pad collision removed due to connection with track which leads to that pad
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 202: Adding track segment (B.Cu): [(82270704, 117810451), (83238446, 112322119)]
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 35: Searching for SW17 footprint
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 46: Setting SW17 footprint position: (110725000, 110725000)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 35: Searching for D17 footprint
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 46: Setting D17 footprint position: (115805000, 113755000)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 240: Rotating SW17 footprint: rotationReference: (25000000, 25000000), rotationAngle: 10
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 240: Rotating D17 footprint: rotationReference: (25000000, 25000000), rotationAngle: 10
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 347: Switch pad without recognized net name found.
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 356: Switch pad without recognized net name found.
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 129: Routing SW17 with D17
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 142: switchPadPosition: (101172035, 120320264), diodePadPosition: (99321550, 126426701)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 173: Routing at 10 degree angle
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 181: In rotated coordinates: switchPadPosition: (120528399, 100923989), diodePadPosition: (119766398, 107258989)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW17:
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad D17:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad D17:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 202: Adding track segment (B.Cu): [(99321550, 126426701), (100204293, 125808596)]
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW17:
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW17:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 130: Track collide with pad D17:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 151: Track collision ignored, track starts or ends at the end of ce1845d0-8c31-4b84-aea4-3f0ac4156b00 track
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 164: Pad collision removed due to connection with track which leads to that pad
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 202: Adding track segment (B.Cu): [(100204293, 125808596), (101172035, 120320264)]
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 35: Searching for SW18 footprint
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 46: Setting SW18 footprint position: (129775000, 115487500)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 35: Searching for D18 footprint
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 46: Setting D18 footprint position: (134855000, 118517500)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 240: Rotating SW18 footprint: rotationReference: (25000000, 25000000), rotationAngle: 10
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 240: Rotating D18 footprint: rotationReference: (25000000, 25000000), rotationAngle: 10
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 347: Switch pad without recognized net name found.
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 356: Switch pad without recognized net name found.
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 129: Routing SW18 with D18
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 142: switchPadPosition: (119105623, 128318408), diodePadPosition: (117255138, 134424846)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 173: Routing at 10 degree angle
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 181: In rotated coordinates: switchPadPosition: (139578398, 105686488), diodePadPosition: (138816398, 112021489)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW24:
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW18:
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad D18:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad D18:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 202: Adding track segment (B.Cu): [(117255138, 134424846), (118137880, 133806741)]
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW24:
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW18:
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW18:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 130: Track collide with pad D18:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 151: Track collision ignored, track starts or ends at the end of f86e9633-876b-4314-a4ea-8cf72bf51ede track
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 164: Pad collision removed due to connection with track which leads to that pad
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 202: Adding track segment (B.Cu): [(118137880, 133806741), (119105623, 128318408)]
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 35: Searching for SW19 footprint
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 46: Setting SW19 footprint position: (191687500, 77387500)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 35: Searching for D19 footprint
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 46: Setting D19 footprint position: (196767500, 80417500)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 240: Rotating SW19 footprint: rotationReference: (25000000, 25000000), rotationAngle: -10
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 240: Rotating D19 footprint: rotationReference: (25000000, 25000000), rotationAngle: -10
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 347: Switch pad without recognized net name found.
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 356: Switch pad without recognized net name found.
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 129: Routing SW19 with D19
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 142: switchPadPosition: (203123250, 41629360), diodePadPosition: (203472888, 48000436)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 173: Routing at -10 degree angle
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 181: In rotated coordinates: switchPadPosition: (192808488, 76268898), diodePadPosition: (192046489, 82603897)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW19:
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad D19:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad D19:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 202: Adding track segment (B.Cu): [(203472888, 48000436), (204090990, 47117693)]
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW19:
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW19:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 130: Track collide with pad D19:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 151: Track collision ignored, track starts or ends at the end of f68b434a-cfca-4c08-91d8-4d7cf8fb60e1 track
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 164: Pad collision removed due to connection with track which leads to that pad
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 202: Adding track segment (B.Cu): [(204090990, 47117693), (203123250, 41629360)]
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 35: Searching for SW20 footprint
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 46: Setting SW20 footprint position: (172637500, 82150000)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 35: Searching for D20 footprint
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 46: Setting D20 footprint position: (177717500, 85180000)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 240: Rotating SW20 footprint: rotationReference: (25000000, 25000000), rotationAngle: -10
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 240: Rotating D20 footprint: rotationReference: (25000000, 25000000), rotationAngle: -10
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 347: Switch pad without recognized net name found.
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 356: Switch pad without recognized net name found.
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 129: Routing SW20 with D20
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 142: switchPadPosition: (185189662, 49627504), diodePadPosition: (185539299, 55998581)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 173: Routing at -10 degree angle
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 181: In rotated coordinates: switchPadPosition: (173758489, 81031398), diodePadPosition: (172996488, 87366397)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW20:
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad D20:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad D20:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 202: Adding track segment (B.Cu): [(185539299, 55998581), (186157402, 55115835)]
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW20:
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW20:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 130: Track collide with pad D20:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 151: Track collision ignored, track starts or ends at the end of 42878812-0384-4604-8326-cdd9aa9062a8 track
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 164: Pad collision removed due to connection with track which leads to that pad
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 202: Adding track segment (B.Cu): [(186157402, 55115835), (185189662, 49627504)]
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 35: Searching for SW21 footprint
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 46: Setting SW21 footprint position: (210737500, 82150000)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 35: Searching for D21 footprint
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 46: Setting D21 footprint position: (215817500, 85180000)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 240: Rotating SW21 footprint: rotationReference: (25000000, 25000000), rotationAngle: -10
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 240: Rotating D21 footprint: rotationReference: (25000000, 25000000), rotationAngle: -10
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 347: Switch pad without recognized net name found.
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 356: Switch pad without recognized net name found.
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 129: Routing SW21 with D21
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 142: switchPadPosition: (222710837, 43011509), diodePadPosition: (223060475, 49382585)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 173: Routing at -10 degree angle
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 181: In rotated coordinates: switchPadPosition: (211858488, 81031398), diodePadPosition: (211096489, 87366397)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW21:
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad D21:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad D21:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 202: Adding track segment (B.Cu): [(223060475, 49382585), (223678577, 48499842)]
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW21:
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW21:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 130: Track collide with pad D21:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 151: Track collision ignored, track starts or ends at the end of f89d44c6-35b5-4ed4-8fb3-1897070128ab track
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 164: Pad collision removed due to connection with track which leads to that pad
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 202: Adding track segment (B.Cu): [(223678577, 48499842), (222710837, 43011509)]
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 35: Searching for SW22 footprint
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 46: Setting SW22 footprint position: (153587500, 86912500)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 35: Searching for D22 footprint
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 46: Setting D22 footprint position: (158667500, 89942500)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 240: Rotating SW22 footprint: rotationReference: (25000000, 25000000), rotationAngle: -10
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 240: Rotating D22 footprint: rotationReference: (25000000, 25000000), rotationAngle: -10
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 347: Switch pad without recognized net name found.
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 356: Switch pad without recognized net name found.
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 129: Routing SW22 with D22
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 142: switchPadPosition: (167256074, 57625649), diodePadPosition: (167605711, 63996726)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 173: Routing at -10 degree angle
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 181: In rotated coordinates: switchPadPosition: (154708489, 85793898), diodePadPosition: (153946488, 92128898)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW22:
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad D22:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad D22:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 202: Adding track segment (B.Cu): [(167605711, 63996726), (168223814, 63113981)]
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW22:
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW22:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 130: Track collide with pad D22:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 151: Track collision ignored, track starts or ends at the end of aec0c61b-989e-4458-9522-535d10c44a8f track
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 164: Pad collision removed due to connection with track which leads to that pad
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 202: Adding track segment (B.Cu): [(168223814, 63113981), (167256074, 57625649)]
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 35: Searching for SW23 footprint
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 46: Setting SW23 footprint position: (229787500, 86912500)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 35: Searching for D23 footprint
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 46: Setting D23 footprint position: (234867500, 89942500)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 240: Rotating SW23 footprint: rotationReference: (25000000, 25000000), rotationAngle: -10
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 240: Rotating D23 footprint: rotationReference: (25000000, 25000000), rotationAngle: -10
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 347: Switch pad without recognized net name found.
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 356: Switch pad without recognized net name found.
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 129: Routing SW23 with D23
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 142: switchPadPosition: (242298425, 44393658), diodePadPosition: (242648062, 50764735)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 173: Routing at -10 degree angle
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 181: In rotated coordinates: switchPadPosition: (230908489, 85793898), diodePadPosition: (230146488, 92128898)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW23:
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad D23:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad D23:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 202: Adding track segment (B.Cu): [(242648062, 50764735), (243266165, 49881990)]
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW23:
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW23:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 130: Track collide with pad D23:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 151: Track collision ignored, track starts or ends at the end of 57153b20-b1b2-4869-88a5-4d030384c394 track
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 164: Pad collision removed due to connection with track which leads to that pad
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 202: Adding track segment (B.Cu): [(243266165, 49881990), (242298425, 44393658)]
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 35: Searching for SW24 footprint
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 46: Setting SW24 footprint position: (191687500, 96437500)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 35: Searching for D24 footprint
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 46: Setting D24 footprint position: (196767500, 99467500)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 240: Rotating SW24 footprint: rotationReference: (25000000, 25000000), rotationAngle: -10
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 240: Rotating D24 footprint: rotationReference: (25000000, 25000000), rotationAngle: -10
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 347: Switch pad without recognized net name found.
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 356: Switch pad without recognized net name found.
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 129: Routing SW24 with D24
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 142: switchPadPosition: (206431248, 60389947), diodePadPosition: (206780885, 66761024)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 173: Routing at -10 degree angle
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 181: In rotated coordinates: switchPadPosition: (192808489, 95318898), diodePadPosition: (192046488, 101653897)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW24:
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad D24:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad D24:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 202: Adding track segment (B.Cu): [(206780885, 66761024), (207398988, 65878278)]
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW24:
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW24:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 130: Track collide with pad D24:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 151: Track collision ignored, track starts or ends at the end of 353e1fa0-75ef-4137-8570-9b7d4eb6ef69 track
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 164: Pad collision removed due to connection with track which leads to that pad
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 202: Adding track segment (B.Cu): [(207398988, 65878278), (206431248, 60389947)]
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 35: Searching for SW25 footprint
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 46: Setting SW25 footprint position: (172637500, 101200000)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 35: Searching for D25 footprint
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 46: Setting D25 footprint position: (177717500, 104230000)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 240: Rotating SW25 footprint: rotationReference: (25000000, 25000000), rotationAngle: -10
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 240: Rotating D25 footprint: rotationReference: (25000000, 25000000), rotationAngle: -10
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 347: Switch pad without recognized net name found.
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 356: Switch pad without recognized net name found.
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 129: Routing SW25 with D25
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 142: switchPadPosition: (188497660, 68388092), diodePadPosition: (188847297, 74759169)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 173: Routing at -10 degree angle
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 181: In rotated coordinates: switchPadPosition: (173758489, 100081398), diodePadPosition: (172996488, 106416398)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW25:
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad D25:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad D25:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 202: Adding track segment (B.Cu): [(188847297, 74759169), (189465400, 73876424)]
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW25:
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW25:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 130: Track collide with pad D25:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 151: Track collision ignored, track starts or ends at the end of 16b8a5ad-d3ea-469f-8377-4ada7493a13e track
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 164: Pad collision removed due to connection with track which leads to that pad
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 202: Adding track segment (B.Cu): [(189465400, 73876424), (188497660, 68388092)]
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 35: Searching for SW26 footprint
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 46: Setting SW26 footprint position: (210737500, 101200000)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 35: Searching for D26 footprint
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 46: Setting D26 footprint position: (215817500, 104230000)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 240: Rotating SW26 footprint: rotationReference: (25000000, 25000000), rotationAngle: -10
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 240: Rotating D26 footprint: rotationReference: (25000000, 25000000), rotationAngle: -10
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 347: Switch pad without recognized net name found.
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 356: Switch pad without recognized net name found.
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 129: Routing SW26 with D26
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 142: switchPadPosition: (226018835, 61772096), diodePadPosition: (226368473, 68143173)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 173: Routing at -10 degree angle
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 181: In rotated coordinates: switchPadPosition: (211858489, 100081397), diodePadPosition: (211096489, 106416397)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW26:
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad D26:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad D26:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 202: Adding track segment (B.Cu): [(226368473, 68143173), (226986576, 67260428)]
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW26:
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW26:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 130: Track collide with pad D26:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 151: Track collision ignored, track starts or ends at the end of c5422cae-43e2-4450-bcc9-f8de9b42b558 track
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 164: Pad collision removed due to connection with track which leads to that pad
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 202: Adding track segment (B.Cu): [(226986576, 67260428), (226018835, 61772096)]
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 35: Searching for SW27 footprint
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 46: Setting SW27 footprint position: (153587500, 105962500)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 35: Searching for D27 footprint
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 46: Setting D27 footprint position: (158667500, 108992500)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 240: Rotating SW27 footprint: rotationReference: (25000000, 25000000), rotationAngle: -10
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 240: Rotating D27 footprint: rotationReference: (25000000, 25000000), rotationAngle: -10
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 347: Switch pad without recognized net name found.
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 356: Switch pad without recognized net name found.
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 129: Routing SW27 with D27
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 142: switchPadPosition: (170564072, 76386237), diodePadPosition: (170913709, 82757313)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 173: Routing at -10 degree angle
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 181: In rotated coordinates: switchPadPosition: (154708489, 104843898), diodePadPosition: (153946489, 111178897)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW27:
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad D27:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad D27:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 202: Adding track segment (B.Cu): [(170913709, 82757313), (171531812, 81874569)]
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW27:
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW27:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 130: Track collide with pad D27:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 151: Track collision ignored, track starts or ends at the end of abe2dc71-5432-4ece-9540-d273003a9f34 track
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 164: Pad collision removed due to connection with track which leads to that pad
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 202: Adding track segment (B.Cu): [(171531812, 81874569), (170564072, 76386237)]
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 35: Searching for SW28 footprint
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 46: Setting SW28 footprint position: (229787500, 105962500)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 35: Searching for D28 footprint
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 46: Setting D28 footprint position: (234867500, 108992500)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 240: Rotating SW28 footprint: rotationReference: (25000000, 25000000), rotationAngle: -10
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 240: Rotating D28 footprint: rotationReference: (25000000, 25000000), rotationAngle: -10
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 347: Switch pad without recognized net name found.
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 356: Switch pad without recognized net name found.
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 129: Routing SW28 with D28
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 142: switchPadPosition: (245606422, 63154246), diodePadPosition: (245956060, 69525322)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 173: Routing at -10 degree angle
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 181: In rotated coordinates: switchPadPosition: (230908488, 104843898), diodePadPosition: (230146489, 111178897)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW28:
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad D28:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad D28:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 202: Adding track segment (B.Cu): [(245956060, 69525322), (246574162, 68642579)]
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW28:
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW28:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 130: Track collide with pad D28:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 151: Track collision ignored, track starts or ends at the end of 6d4870d7-8c0c-46b3-8e19-fdd1490401f9 track
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 164: Pad collision removed due to connection with track which leads to that pad
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 202: Adding track segment (B.Cu): [(246574162, 68642579), (245606422, 63154246)]
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 35: Searching for SW29 footprint
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 46: Setting SW29 footprint position: (191687500, 115487500)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 35: Searching for D29 footprint
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 46: Setting D29 footprint position: (196767500, 118517500)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 240: Rotating SW29 footprint: rotationReference: (25000000, 25000000), rotationAngle: -10
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 240: Rotating D29 footprint: rotationReference: (25000000, 25000000), rotationAngle: -10
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 347: Switch pad without recognized net name found.
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 356: Switch pad without recognized net name found.
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 129: Routing SW29 with D29
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 142: switchPadPosition: (209739246, 79150535), diodePadPosition: (210088883, 85521612)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 173: Routing at -10 degree angle
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 181: In rotated coordinates: switchPadPosition: (192808489, 114368898), diodePadPosition: (192046488, 120703898)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW29:
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad D29:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad D29:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 202: Adding track segment (B.Cu): [(210088883, 85521612), (210706986, 84638867)]
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW29:
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW29:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 130: Track collide with pad D29:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 151: Track collision ignored, track starts or ends at the end of 8bdd8849-11d0-4aca-b1a5-1fd36394a078 track
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 164: Pad collision removed due to connection with track which leads to that pad
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 202: Adding track segment (B.Cu): [(210706986, 84638867), (209739246, 79150535)]
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 35: Searching for SW30 footprint
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 46: Setting SW30 footprint position: (172637500, 120250000)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 35: Searching for D30 footprint
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 46: Setting D30 footprint position: (177717500, 123280000)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 240: Rotating SW30 footprint: rotationReference: (25000000, 25000000), rotationAngle: -10
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 240: Rotating D30 footprint: rotationReference: (25000000, 25000000), rotationAngle: -10
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 347: Switch pad without recognized net name found.
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 356: Switch pad without recognized net name found.
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 129: Routing SW30 with D30
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 142: switchPadPosition: (191805658, 87148680), diodePadPosition: (192155295, 93519756)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 173: Routing at -10 degree angle
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 181: In rotated coordinates: switchPadPosition: (173758489, 119131398), diodePadPosition: (172996489, 125466397)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW30:
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad D30:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad D30:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 202: Adding track segment (B.Cu): [(192155295, 93519756), (192773398, 92637012)]
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW30:
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW30:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 130: Track collide with pad D30:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 151: Track collision ignored, track starts or ends at the end of 8815a14d-0f3f-4b79-8333-1ed9c3ea0538 track
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 164: Pad collision removed due to connection with track which leads to that pad
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 202: Adding track segment (B.Cu): [(192773398, 92637012), (191805658, 87148680)]
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 35: Searching for SW31 footprint
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 46: Setting SW31 footprint position: (210737500, 120250000)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 35: Searching for D31 footprint
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 46: Setting D31 footprint position: (215817500, 123280000)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 240: Rotating SW31 footprint: rotationReference: (25000000, 25000000), rotationAngle: -10
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 240: Rotating D31 footprint: rotationReference: (25000000, 25000000), rotationAngle: -10
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 347: Switch pad without recognized net name found.
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 356: Switch pad without recognized net name found.
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 129: Routing SW31 with D31
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 142: switchPadPosition: (229326833, 80532684), diodePadPosition: (229676470, 86903761)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 173: Routing at -10 degree angle
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 181: In rotated coordinates: switchPadPosition: (211858489, 119131398), diodePadPosition: (211096488, 125466398)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW31:
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad D31:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad D31:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 202: Adding track segment (B.Cu): [(229676470, 86903761), (230294573, 86021016)]
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW31:
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW31:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 130: Track collide with pad D31:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 151: Track collision ignored, track starts or ends at the end of 024c815b-92d2-42a3-ae90-e00820331c30 track
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 164: Pad collision removed due to connection with track which leads to that pad
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 202: Adding track segment (B.Cu): [(230294573, 86021016), (229326833, 80532684)]
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 35: Searching for SW32 footprint
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 46: Setting SW32 footprint position: (153587500, 125012500)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 35: Searching for D32 footprint
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 46: Setting D32 footprint position: (158667500, 128042500)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 240: Rotating SW32 footprint: rotationReference: (25000000, 25000000), rotationAngle: -10
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 240: Rotating D32 footprint: rotationReference: (25000000, 25000000), rotationAngle: -10
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 347: Switch pad without recognized net name found.
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 356: Switch pad without recognized net name found.
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 129: Routing SW32 with D32
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 142: switchPadPosition: (173872069, 95146824), diodePadPosition: (174221707, 101517901)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 173: Routing at -10 degree angle
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 181: In rotated coordinates: switchPadPosition: (154708488, 123893897), diodePadPosition: (153946489, 130228897)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW32:
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad D32:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad D32:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 202: Adding track segment (B.Cu): [(174221707, 101517901), (174839809, 100635157)]
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW32:
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW32:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 130: Track collide with pad D32:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 151: Track collision ignored, track starts or ends at the end of f2c55a6b-d74c-4fc3-b96e-245a9a2634d3 track
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 164: Pad collision removed due to connection with track which leads to that pad
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 202: Adding track segment (B.Cu): [(174839809, 100635157), (173872069, 95146824)]
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 35: Searching for SW33 footprint
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 46: Setting SW33 footprint position: (229787500, 125012500)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 35: Searching for D33 footprint
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 46: Setting D33 footprint position: (234867500, 128042500)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 240: Rotating SW33 footprint: rotationReference: (25000000, 25000000), rotationAngle: -10
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 240: Rotating D33 footprint: rotationReference: (25000000, 25000000), rotationAngle: -10
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 347: Switch pad without recognized net name found.
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 356: Switch pad without recognized net name found.
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 129: Routing SW33 with D33
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 142: switchPadPosition: (248914420, 81914833), diodePadPosition: (249264057, 88285910)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 173: Routing at -10 degree angle
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 181: In rotated coordinates: switchPadPosition: (230908489, 123893898), diodePadPosition: (230146488, 130228897)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW33:
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad D33:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad D33:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 202: Adding track segment (B.Cu): [(249264057, 88285910), (249882160, 87403164)]
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW33:
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW33:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 130: Track collide with pad D33:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 151: Track collision ignored, track starts or ends at the end of debfb2e9-9fb9-4591-9c8f-6de6bc0c8b55 track
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 164: Pad collision removed due to connection with track which leads to that pad
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 202: Adding track segment (B.Cu): [(249882160, 87403164), (248914420, 81914833)]
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 35: Searching for SW34 footprint
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 46: Setting SW34 footprint position: (182162500, 144062500)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 35: Searching for D34 footprint
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 46: Setting D34 footprint position: (187242500, 147092500)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 240: Rotating SW34 footprint: rotationReference: (25000000, 25000000), rotationAngle: -10
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 240: Rotating D34 footprint: rotationReference: (25000000, 25000000), rotationAngle: -10
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 347: Switch pad without recognized net name found.
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 356: Switch pad without recognized net name found.
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 129: Routing SW34 with D34
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 142: switchPadPosition: (205320949, 108945415), diodePadPosition: (205670586, 115316492)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 173: Routing at -10 degree angle
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 181: In rotated coordinates: switchPadPosition: (183283489, 142943897), diodePadPosition: (182521488, 149278897)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW34:
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad D34:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad D34:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 202: Adding track segment (B.Cu): [(205670586, 115316492), (206288689, 114433746)]
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW34:
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW34:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 130: Track collide with pad D34:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 151: Track collision ignored, track starts or ends at the end of 7b04bb87-f7e4-4c57-b822-66d48c8d40a4 track
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 164: Pad collision removed due to connection with track which leads to that pad
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 202: Adding track segment (B.Cu): [(206288689, 114433746), (205320949, 108945415)]
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 35: Searching for SW35 footprint
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 46: Setting SW35 footprint position: (163112500, 148825000)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 35: Searching for D35 footprint
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 46: Setting D35 footprint position: (168192500, 151855000)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 240: Rotating SW35 footprint: rotationReference: (25000000, 25000000), rotationAngle: -10
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 240: Rotating D35 footprint: rotationReference: (25000000, 25000000), rotationAngle: -10
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 347: Switch pad without recognized net name found.
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 356: Switch pad without recognized net name found.
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 129: Routing SW35 with D35
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 142: switchPadPosition: (187387360, 116943560), diodePadPosition: (187736998, 123314637)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 173: Routing at -10 degree angle
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 181: In rotated coordinates: switchPadPosition: (164233488, 147706398), diodePadPosition: (163471489, 154041398)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW35:
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad D35:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad D35:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 202: Adding track segment (B.Cu): [(187736998, 123314637), (188355100, 122431894)]
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW35:
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW35:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 130: Track collide with pad D35:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 151: Track collision ignored, track starts or ends at the end of 1961587b-7d4a-40ae-9794-33d5ea6d2cf5 track
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 164: Pad collision removed due to connection with track which leads to that pad
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 202: Adding track segment (B.Cu): [(188355100, 122431894), (187387360, 116943560)]
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 35: Searching for SW36 footprint
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 46: Setting SW36 footprint position: (144062500, 153587500)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 35: Searching for D36 footprint
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 46: Setting D36 footprint position: (149142500, 156617500)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 240: Rotating SW36 footprint: rotationReference: (25000000, 25000000), rotationAngle: -10
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 240: Rotating D36 footprint: rotationReference: (25000000, 25000000), rotationAngle: -10
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 347: Switch pad without recognized net name found.
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 356: Switch pad without recognized net name found.
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 129: Routing SW36 with D36
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 142: switchPadPosition: (169453772, 124941705), diodePadPosition: (169803410, 131312782)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 173: Routing at -10 degree angle
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 181: In rotated coordinates: switchPadPosition: (145183489, 152468898), diodePadPosition: (144421489, 158803898)
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW36:
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad D36:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad D36:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 202: Adding track segment (B.Cu): [(169803410, 131312782), (170421513, 130430038)]
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW36:
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 121: Track collision ignored, track starts or ends in pad SW36:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 130: Track collide with pad D36:2
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 151: Track collision ignored, track starts or ends at the end of fccbcc2e-109c-4a40-959f-131144750901 track
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 164: Pad collision removed due to connection with track which leads to that pad
+22:35:30 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 202: Adding track segment (B.Cu): [(170421513, 130430038), (169453772, 124941705)]

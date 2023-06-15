@@ -1,2 +1,2 @@
-kicad/ver1.kicad_prl
-kicad/ver1-backups/*
+**/*.kicad_prl
+**/*-backups/*
